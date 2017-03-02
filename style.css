@@ -8,7 +8,20 @@
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.jumbotron { padding:  20, 10, 20, 10;}
+.jumbotron 
+{ 
+	padding-top: 20;
+	padding-bottom: 20;
+}
+
+#navbar_container 
+{ 
+	height: auto;
+	width: 100%;
+	padding: 20px 10px 20px 10px;
+}
+
+#transleep_logo { font-size: 48px; }
 
 html, body
 {

@@ -1,24 +1,48 @@
 /* Import google web font */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-.accent
+[class*=accent]
 {
-	background-color: #4d0099;
+	transition: background-color 1s;
 	color: white;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+a { font-size: 48px; color: white; }
+
+div.plain { background-color: white; color: black;}
+
+div.accent-lightest { background-color: #bf80ff; }
+
+div.accent { background-color: #4d0099; }
+
+div.accent:hover { background-color: #8000ff }
+
+div.accent-darkest { background-color: #1a0033; }
+
+h1 { margin-top: 10px; }
+
+.center { text-align: center; }
+
 .jumbotron 
 { 
-	padding-top: 20;
-	padding-bottom: 20;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
 }
 
 #navbar_container 
 { 
 	height: auto;
 	width: 100%;
-	padding: 20px 10px 20px 10px;
+	padding: 8px 10px 8px 10px;
+}
+
+#footer 
+{ 
+	height: auto;
+	width: 100%;
+	padding: 8px 10px 8px 10px; 
 }
 
 #transleep_logo { font-size: 48px; }

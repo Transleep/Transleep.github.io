@@ -10,13 +10,21 @@
 
 a { font-size: 48px; color: white; }
 
+html, body
+{
+	height: 100%; 
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body { padding-top: 90px; }
+
 div.plain { background-color: white; color: black;}
 
 div.accent-lightest { background-color: #bf80ff; }
 
 div.accent { background-color: #4d0099; }
 
-div.accent:hover { background-color: #8000ff }
+div.accent:hover { background-color: #7300e6 }
 
 div.accent-darkest { background-color: #1a0033; }
 
@@ -33,7 +41,10 @@ h1 { margin-top: 10px; }
 
 #navbar_container 
 { 
-	height: auto;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	height: 90px;
 	width: 100%;
 	padding: 8px 10px 8px 10px;
 }
@@ -46,9 +57,3 @@ h1 { margin-top: 10px; }
 }
 
 #transleep_logo { font-size: 48px; }
-
-html, body
-{
-	height: 100%; 
-	font-family: 'Roboto Condensed', sans-serif;
-}
